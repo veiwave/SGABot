@@ -1,1 +1,1 @@
-web: python SGAbot.py
+worker: python SGAbot.py
