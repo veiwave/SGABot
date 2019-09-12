@@ -264,7 +264,5 @@ async def on_message(message):
     except ('InvalidArgument', 'CommandInvokeError'):
         pass
 
-file = open('config.json', 'r')
-contents = file.read()
 
 bot.run(TOKEN) #token
